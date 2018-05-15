@@ -1,0 +1,39 @@
+{
+  "name": "schemacrat",
+  "version": "1.0.0",
+  "description": "Validate 1 or more json documents against an index of schemas",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node .",
+    "test": "./test/test.js"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": ">=6"
+  },
+  "bin": {
+    "schemacrat": "./index.js"
+  },
+  "author": "Ollie Edwards <oliver.s.edwards@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^6.4.0"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "tape": "^4.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antiBaconMachine/schemacrat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/antiBaconMachine/schemacrat/issues"
+  },
+  "homepage": "https://github.com/antiBaconMachine/schemacrat#readme"
+}

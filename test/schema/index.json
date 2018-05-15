@@ -1,0 +1,6 @@
+{
+    "default": true,
+    "v2": {
+        "required": ["foobar"]
+    }
+}
