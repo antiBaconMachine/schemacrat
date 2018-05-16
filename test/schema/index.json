@@ -1,6 +1,20 @@
 {
-    "default": true,
-    "v2": {
-        "required": ["foobar"]
+  "default": true,
+  "v2": {
+    "required": ["foobar"]
+  },
+  "merge": {
+    "$merge": {
+      "source": {
+        "$ref": "v2"
+      },
+      "with": {
+        "properties": {
+          "foobar": {
+            "type": "number"
+          }
+        }
+      }
     }
+  }
 }

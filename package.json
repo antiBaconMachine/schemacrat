@@ -18,7 +18,8 @@
   "author": "Ollie Edwards <oliver.s.edwards@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "ajv": "^6.4.0"
+    "ajv": "^6.5.0",
+    "ajv-merge-patch": "^3.0.0"
   },
   "directories": {
     "lib": "lib",
