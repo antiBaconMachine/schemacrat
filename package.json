@@ -18,7 +18,7 @@
   "author": "Ollie Edwards <oliver.s.edwards@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "ajv": "^6.5.0",
+    "ajv": "^6.5.5",
     "ajv-merge-patch": "^3.0.0"
   },
   "directories": {
@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "eslint": "^4.19.1",
-    "tape": "^4.9.0"
+    "tape": "^4.9.1"
   },
   "repository": {
     "type": "git",
